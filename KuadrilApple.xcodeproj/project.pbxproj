@@ -20,6 +20,11 @@
 		0E3D41F52061066600264596 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D41F42061066600264596 /* SignupViewController.m */; };
 		0E3D41F820610A5000264596 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D41F720610A5000264596 /* LoginViewController.m */; };
 		0E3D41FB20610C7F00264596 /* FrontpageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D41FA20610C7F00264596 /* FrontpageViewController.m */; };
+		0E3D41FE2061353800264596 /* AddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D41FD2061353800264596 /* AddEventViewController.m */; };
+		0E3D4205206144C400264596 /* AlertDialogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D4204206144C400264596 /* AlertDialogUtil.m */; };
+		0E3D4209206146B300264596 /* DateVote.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D4208206146B300264596 /* DateVote.m */; };
+		0E3D420C206146BD00264596 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D420B206146BD00264596 /* Event.m */; };
+		0E3D420F206146C800264596 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D420E206146C800264596 /* User.m */; };
 		4D0EC36DF34462125A55BDE8 /* libPods-KuadrilAppleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 205515BF7E29876438D1A8B8 /* libPods-KuadrilAppleTests.a */; };
 		A77704AED062F963AD0DA351 /* libPods-KuadrilAppleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B21C282AB5A3FF94144FADE2 /* libPods-KuadrilAppleUITests.a */; };
 		DB8EA37C39F9BB238C2296C0 /* libPods-KuadrilApple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D953BACAB2F69856B775CC /* libPods-KuadrilApple.a */; };
@@ -67,6 +72,16 @@
 		0E3D41F720610A5000264596 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		0E3D41F920610C7F00264596 /* FrontpageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrontpageViewController.h; sourceTree = "<group>"; };
 		0E3D41FA20610C7F00264596 /* FrontpageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrontpageViewController.m; sourceTree = "<group>"; };
+		0E3D41FC2061353800264596 /* AddEventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddEventViewController.h; sourceTree = "<group>"; };
+		0E3D41FD2061353800264596 /* AddEventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddEventViewController.m; sourceTree = "<group>"; };
+		0E3D4203206144C400264596 /* AlertDialogUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertDialogUtil.h; sourceTree = "<group>"; };
+		0E3D4204206144C400264596 /* AlertDialogUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertDialogUtil.m; sourceTree = "<group>"; };
+		0E3D4207206146B300264596 /* DateVote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateVote.h; sourceTree = "<group>"; };
+		0E3D4208206146B300264596 /* DateVote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateVote.m; sourceTree = "<group>"; };
+		0E3D420A206146BD00264596 /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		0E3D420B206146BD00264596 /* Event.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		0E3D420D206146C800264596 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		0E3D420E206146C800264596 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		205515BF7E29876438D1A8B8 /* libPods-KuadrilAppleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KuadrilAppleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D953BACAB2F69856B775CC /* libPods-KuadrilApple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KuadrilApple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		645ECF20F598AB226F194613 /* Pods-KuadrilAppleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KuadrilAppleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KuadrilAppleTests/Pods-KuadrilAppleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +124,8 @@
 		0E3D41AE2060F08400264596 = {
 			isa = PBXGroup;
 			children = (
+				0E3D42062061468A00264596 /* Model */,
+				0E3D4200206143BC00264596 /* Utils */,
 				0E3D41B92060F08400264596 /* KuadrilApple */,
 				0E3D41D22060F08400264596 /* KuadrilAppleTests */,
 				0E3D41DD2060F08400264596 /* KuadrilAppleUITests */,
@@ -148,6 +165,8 @@
 				0E3D41F720610A5000264596 /* LoginViewController.m */,
 				0E3D41F920610C7F00264596 /* FrontpageViewController.h */,
 				0E3D41FA20610C7F00264596 /* FrontpageViewController.m */,
+				0E3D41FC2061353800264596 /* AddEventViewController.h */,
+				0E3D41FD2061353800264596 /* AddEventViewController.m */,
 			);
 			path = KuadrilApple;
 			sourceTree = "<group>";
@@ -168,6 +187,28 @@
 				0E3D41E02060F08400264596 /* Info.plist */,
 			);
 			path = KuadrilAppleUITests;
+			sourceTree = "<group>";
+		};
+		0E3D4200206143BC00264596 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0E3D4203206144C400264596 /* AlertDialogUtil.h */,
+				0E3D4204206144C400264596 /* AlertDialogUtil.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0E3D42062061468A00264596 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E3D4207206146B300264596 /* DateVote.h */,
+				0E3D4208206146B300264596 /* DateVote.m */,
+				0E3D420A206146BD00264596 /* Event.h */,
+				0E3D420B206146BD00264596 /* Event.m */,
+				0E3D420D206146C800264596 /* User.h */,
+				0E3D420E206146C800264596 /* User.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		358192A376BFA018873E11E0 /* Pods */ = {
@@ -485,7 +526,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E3D41BF2060F08400264596 /* ViewController.m in Sources */,
+				0E3D41FE2061353800264596 /* AddEventViewController.m in Sources */,
+				0E3D420C206146BD00264596 /* Event.m in Sources */,
+				0E3D4205206144C400264596 /* AlertDialogUtil.m in Sources */,
+				0E3D4209206146B300264596 /* DateVote.m in Sources */,
 				0E3D41FB20610C7F00264596 /* FrontpageViewController.m in Sources */,
+				0E3D420F206146C800264596 /* User.m in Sources */,
 				0E3D41CA2060F08400264596 /* main.m in Sources */,
 				0E3D41F52061066600264596 /* SignupViewController.m in Sources */,
 				0E3D41BC2060F08400264596 /* AppDelegate.m in Sources */,

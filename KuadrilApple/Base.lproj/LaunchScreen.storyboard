@@ -20,18 +20,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KAppIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Vv6-uL-Npp">
-                                <rect key="frame" x="123" y="269" width="128" height="128"/>
+                                <rect key="frame" x="123" y="191" width="128" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Vv6-uL-Npp" secondAttribute="height" multiplier="1:1" id="Toj-aa-v03"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KuadrilApple" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vm5-sF-q8e">
+                                <rect key="frame" x="16" y="347" width="343" height="38.5"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Vv6-uL-Npp" secondAttribute="bottom" constant="270" id="6Fh-Pa-oSt"/>
+                            <constraint firstItem="Vv6-uL-Npp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="171" id="BTv-EZ-Ajp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vv6-uL-Npp" secondAttribute="trailing" constant="124" id="BYW-eJ-XZE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vm5-sF-q8e" secondAttribute="trailing" constant="16" id="I5X-s5-OWu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Vv6-uL-Npp" secondAttribute="bottom" constant="348" id="K8w-76-Whq"/>
                             <constraint firstItem="Vv6-uL-Npp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="123" id="MRD-Nw-FfW"/>
-                            <constraint firstItem="Vv6-uL-Npp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="249" id="ygC-Cz-6cv"/>
+                            <constraint firstItem="Vm5-sF-q8e" firstAttribute="top" secondItem="Vv6-uL-Npp" secondAttribute="bottom" constant="28" id="U1u-5i-vAm"/>
+                            <constraint firstItem="Vm5-sF-q8e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="aR7-kr-4p4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

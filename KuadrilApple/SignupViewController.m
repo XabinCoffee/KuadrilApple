@@ -7,6 +7,7 @@
 //
 
 #import "SignupViewController.h"
+#import "AlertDialogUtil.h"
 
 @import FirebaseAuth;
 @interface SignupViewController ()
@@ -46,7 +47,12 @@
     if ([password isEqualToString:_repeatPasswordField.text]){
         [[FIRAuth auth] createUserWithEmail:email password:password
             completion:^(FIRUser *_Nullable user, NSError *_Nullable error) {
-                [[self navigationController] popViewControllerAnimated:YES];
+                if (user!=nil){
+                    [[self navigationController] popViewControllerAnimated:YES];
+                } else {
+                    [AlertDialogUtil showAlertWithTitle:@"Error" message:@"Datu guztiak ondo bete." delay:0.1 controller:self];
+                }
+                
         }];
     }
 }

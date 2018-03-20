@@ -114,7 +114,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zax-CF-Oqc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1519" y="1066"/>
+            <point key="canvasLocation" x="1446" y="620"/>
         </scene>
         <!--Signup View Controller-->
         <scene sceneID="JDZ-Zg-BYN">
@@ -181,7 +181,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m0j-Yy-5LD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2375" y="1066"/>
+            <point key="canvasLocation" x="2226" y="619"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nVG-Fk-sgF">
@@ -199,7 +199,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ggo-Zv-JQa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="662" y="1066"/>
+            <point key="canvasLocation" x="662" y="621"/>
         </scene>
         <!--Frontpage-->
         <scene sceneID="6Eh-GY-vYm">
@@ -207,7 +207,7 @@
                 <viewControllerPlaceholder storyboardName="Frontpage" id="1cu-J0-MXK" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WYz-hR-gRv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2075" y="-79"/>
+            <point key="canvasLocation" x="2002" y="-77"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
