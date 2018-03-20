@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E3D41BC2060F08400264596 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D41BB2060F08400264596 /* AppDelegate.m */; };
+		0E3D41BF2060F08400264596 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D41BE2060F08400264596 /* ViewController.m */; };
+		0E3D41C22060F08400264596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3D41C02060F08400264596 /* Main.storyboard */; };
+		0E3D41C42060F08400264596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E3D41C32060F08400264596 /* Assets.xcassets */; };
+		0E3D41C72060F08400264596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3D41C52060F08400264596 /* LaunchScreen.storyboard */; };
+		0E3D41CA2060F08400264596 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D41C92060F08400264596 /* main.m */; };
+		0E3D41D42060F08400264596 /* KuadrilAppleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D41D32060F08400264596 /* KuadrilAppleTests.m */; };
+		0E3D41DF2060F08400264596 /* KuadrilAppleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3D41DE2060F08400264596 /* KuadrilAppleUITests.m */; };
+		0E3D41ED2060F42E00264596 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E3D41EC2060F42E00264596 /* GoogleService-Info.plist */; };
+		4D0EC36DF34462125A55BDE8 /* libPods-KuadrilAppleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 205515BF7E29876438D1A8B8 /* libPods-KuadrilAppleTests.a */; };
+		A77704AED062F963AD0DA351 /* libPods-KuadrilAppleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B21C282AB5A3FF94144FADE2 /* libPods-KuadrilAppleUITests.a */; };
+		DB8EA37C39F9BB238C2296C0 /* libPods-KuadrilApple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D953BACAB2F69856B775CC /* libPods-KuadrilApple.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E3D41D02060F08400264596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E3D41AF2060F08400264596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E3D41B62060F08400264596;
+			remoteInfo = KuadrilApple;
+		};
+		0E3D41DB2060F08400264596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E3D41AF2060F08400264596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E3D41B62060F08400264596;
+			remoteInfo = KuadrilApple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E3D41B72060F08400264596 /* KuadrilApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KuadrilApple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E3D41BA2060F08400264596 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E3D41BB2060F08400264596 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E3D41BD2060F08400264596 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0E3D41BE2060F08400264596 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E3D41C12060F08400264596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E3D41C32060F08400264596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E3D41C62060F08400264596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E3D41C82060F08400264596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E3D41C92060F08400264596 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E3D41CF2060F08400264596 /* KuadrilAppleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KuadrilAppleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E3D41D32060F08400264596 /* KuadrilAppleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KuadrilAppleTests.m; sourceTree = "<group>"; };
+		0E3D41D52060F08400264596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E3D41DA2060F08400264596 /* KuadrilAppleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KuadrilAppleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E3D41DE2060F08400264596 /* KuadrilAppleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KuadrilAppleUITests.m; sourceTree = "<group>"; };
+		0E3D41E02060F08400264596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E3D41EC2060F42E00264596 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		205515BF7E29876438D1A8B8 /* libPods-KuadrilAppleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KuadrilAppleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D953BACAB2F69856B775CC /* libPods-KuadrilApple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KuadrilApple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		645ECF20F598AB226F194613 /* Pods-KuadrilAppleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KuadrilAppleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KuadrilAppleTests/Pods-KuadrilAppleTests.release.xcconfig"; sourceTree = "<group>"; };
+		691FE982470B605F30BD6298 /* Pods-KuadrilApple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KuadrilApple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KuadrilApple/Pods-KuadrilApple.debug.xcconfig"; sourceTree = "<group>"; };
+		A07E0CCF56C5E93361C81D60 /* Pods-KuadrilAppleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KuadrilAppleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KuadrilAppleUITests/Pods-KuadrilAppleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B21C282AB5A3FF94144FADE2 /* libPods-KuadrilAppleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KuadrilAppleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8036D1814A49D7E541230D3 /* Pods-KuadrilApple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KuadrilApple.release.xcconfig"; path = "Pods/Target Support Files/Pods-KuadrilApple/Pods-KuadrilApple.release.xcconfig"; sourceTree = "<group>"; };
+		CFDF8B491800363AF3B06A30 /* Pods-KuadrilAppleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KuadrilAppleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KuadrilAppleUITests/Pods-KuadrilAppleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E220AF623D06F49597D4AE38 /* Pods-KuadrilAppleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KuadrilAppleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KuadrilAppleTests/Pods-KuadrilAppleTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E3D41B42060F08400264596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8EA37C39F9BB238C2296C0 /* libPods-KuadrilApple.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E3D41CC2060F08400264596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0EC36DF34462125A55BDE8 /* libPods-KuadrilAppleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E3D41D72060F08400264596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77704AED062F963AD0DA351 /* libPods-KuadrilAppleUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E3D41AE2060F08400264596 = {
+			isa = PBXGroup;
+			children = (
+				0E3D41B92060F08400264596 /* KuadrilApple */,
+				0E3D41D22060F08400264596 /* KuadrilAppleTests */,
+				0E3D41DD2060F08400264596 /* KuadrilAppleUITests */,
+				0E3D41B82060F08400264596 /* Products */,
+				358192A376BFA018873E11E0 /* Pods */,
+				B75EF8F39DAB9C681E831D18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E3D41B82060F08400264596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E3D41B72060F08400264596 /* KuadrilApple.app */,
+				0E3D41CF2060F08400264596 /* KuadrilAppleTests.xctest */,
+				0E3D41DA2060F08400264596 /* KuadrilAppleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E3D41B92060F08400264596 /* KuadrilApple */ = {
+			isa = PBXGroup;
+			children = (
+				0E3D41BA2060F08400264596 /* AppDelegate.h */,
+				0E3D41BB2060F08400264596 /* AppDelegate.m */,
+				0E3D41BD2060F08400264596 /* ViewController.h */,
+				0E3D41BE2060F08400264596 /* ViewController.m */,
+				0E3D41C02060F08400264596 /* Main.storyboard */,
+				0E3D41C32060F08400264596 /* Assets.xcassets */,
+				0E3D41C52060F08400264596 /* LaunchScreen.storyboard */,
+				0E3D41C82060F08400264596 /* Info.plist */,
+				0E3D41C92060F08400264596 /* main.m */,
+				0E3D41EC2060F42E00264596 /* GoogleService-Info.plist */,
+			);
+			path = KuadrilApple;
+			sourceTree = "<group>";
+		};
+		0E3D41D22060F08400264596 /* KuadrilAppleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E3D41D32060F08400264596 /* KuadrilAppleTests.m */,
+				0E3D41D52060F08400264596 /* Info.plist */,
+			);
+			path = KuadrilAppleTests;
+			sourceTree = "<group>";
+		};
+		0E3D41DD2060F08400264596 /* KuadrilAppleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E3D41DE2060F08400264596 /* KuadrilAppleUITests.m */,
+				0E3D41E02060F08400264596 /* Info.plist */,
+			);
+			path = KuadrilAppleUITests;
+			sourceTree = "<group>";
+		};
+		358192A376BFA018873E11E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				691FE982470B605F30BD6298 /* Pods-KuadrilApple.debug.xcconfig */,
+				C8036D1814A49D7E541230D3 /* Pods-KuadrilApple.release.xcconfig */,
+				E220AF623D06F49597D4AE38 /* Pods-KuadrilAppleTests.debug.xcconfig */,
+				645ECF20F598AB226F194613 /* Pods-KuadrilAppleTests.release.xcconfig */,
+				CFDF8B491800363AF3B06A30 /* Pods-KuadrilAppleUITests.debug.xcconfig */,
+				A07E0CCF56C5E93361C81D60 /* Pods-KuadrilAppleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B75EF8F39DAB9C681E831D18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27D953BACAB2F69856B775CC /* libPods-KuadrilApple.a */,
+				205515BF7E29876438D1A8B8 /* libPods-KuadrilAppleTests.a */,
+				B21C282AB5A3FF94144FADE2 /* libPods-KuadrilAppleUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E3D41B62060F08400264596 /* KuadrilApple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E3D41E32060F08400264596 /* Build configuration list for PBXNativeTarget "KuadrilApple" */;
+			buildPhases = (
+				A1DD16CDD4147CDBC4F06CF1 /* [CP] Check Pods Manifest.lock */,
+				0E3D41B32060F08400264596 /* Sources */,
+				0E3D41B42060F08400264596 /* Frameworks */,
+				0E3D41B52060F08400264596 /* Resources */,
+				52FFE1F9D1ED2CE06E8A0CCA /* [CP] Embed Pods Frameworks */,
+				7F03E7491A1451B600EE45C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KuadrilApple;
+			productName = KuadrilApple;
+			productReference = 0E3D41B72060F08400264596 /* KuadrilApple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E3D41CE2060F08400264596 /* KuadrilAppleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E3D41E62060F08400264596 /* Build configuration list for PBXNativeTarget "KuadrilAppleTests" */;
+			buildPhases = (
+				BA3F5036794245BD14F5C4BE /* [CP] Check Pods Manifest.lock */,
+				0E3D41CB2060F08400264596 /* Sources */,
+				0E3D41CC2060F08400264596 /* Frameworks */,
+				0E3D41CD2060F08400264596 /* Resources */,
+				FBA23A41810B214F86CB32E4 /* [CP] Embed Pods Frameworks */,
+				FA8870B835E909D49DB910D2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E3D41D12060F08400264596 /* PBXTargetDependency */,
+			);
+			name = KuadrilAppleTests;
+			productName = KuadrilAppleTests;
+			productReference = 0E3D41CF2060F08400264596 /* KuadrilAppleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E3D41D92060F08400264596 /* KuadrilAppleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E3D41E92060F08400264596 /* Build configuration list for PBXNativeTarget "KuadrilAppleUITests" */;
+			buildPhases = (
+				E8B551C6E2BA79BFB108C197 /* [CP] Check Pods Manifest.lock */,
+				0E3D41D62060F08400264596 /* Sources */,
+				0E3D41D72060F08400264596 /* Frameworks */,
+				0E3D41D82060F08400264596 /* Resources */,
+				C4B6A3ED8FE569AAE8FE18AC /* [CP] Embed Pods Frameworks */,
+				8DDEA481945EDC1721D318EF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E3D41DC2060F08400264596 /* PBXTargetDependency */,
+			);
+			name = KuadrilAppleUITests;
+			productName = KuadrilAppleUITests;
+			productReference = 0E3D41DA2060F08400264596 /* KuadrilAppleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E3D41AF2060F08400264596 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Xabin Rodriguez";
+				TargetAttributes = {
+					0E3D41B62060F08400264596 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0E3D41CE2060F08400264596 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E3D41B62060F08400264596;
+					};
+					0E3D41D92060F08400264596 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E3D41B62060F08400264596;
+					};
+				};
+			};
+			buildConfigurationList = 0E3D41B22060F08400264596 /* Build configuration list for PBXProject "KuadrilApple" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E3D41AE2060F08400264596;
+			productRefGroup = 0E3D41B82060F08400264596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E3D41B62060F08400264596 /* KuadrilApple */,
+				0E3D41CE2060F08400264596 /* KuadrilAppleTests */,
+				0E3D41D92060F08400264596 /* KuadrilAppleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E3D41B52060F08400264596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3D41C72060F08400264596 /* LaunchScreen.storyboard in Resources */,
+				0E3D41ED2060F42E00264596 /* GoogleService-Info.plist in Resources */,
+				0E3D41C42060F08400264596 /* Assets.xcassets in Resources */,
+				0E3D41C22060F08400264596 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E3D41CD2060F08400264596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E3D41D82060F08400264596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52FFE1F9D1ED2CE06E8A0CCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KuadrilApple/Pods-KuadrilApple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F03E7491A1451B600EE45C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KuadrilApple/Pods-KuadrilApple-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DDEA481945EDC1721D318EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KuadrilAppleUITests/Pods-KuadrilAppleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1DD16CDD4147CDBC4F06CF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KuadrilApple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA3F5036794245BD14F5C4BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KuadrilAppleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4B6A3ED8FE569AAE8FE18AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KuadrilAppleUITests/Pods-KuadrilAppleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B551C6E2BA79BFB108C197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KuadrilAppleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA8870B835E909D49DB910D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KuadrilAppleTests/Pods-KuadrilAppleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBA23A41810B214F86CB32E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KuadrilAppleTests/Pods-KuadrilAppleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E3D41B32060F08400264596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3D41BF2060F08400264596 /* ViewController.m in Sources */,
+				0E3D41CA2060F08400264596 /* main.m in Sources */,
+				0E3D41BC2060F08400264596 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E3D41CB2060F08400264596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3D41D42060F08400264596 /* KuadrilAppleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E3D41D62060F08400264596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3D41DF2060F08400264596 /* KuadrilAppleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E3D41D12060F08400264596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E3D41B62060F08400264596 /* KuadrilApple */;
+			targetProxy = 0E3D41D02060F08400264596 /* PBXContainerItemProxy */;
+		};
+		0E3D41DC2060F08400264596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E3D41B62060F08400264596 /* KuadrilApple */;
+			targetProxy = 0E3D41DB2060F08400264596 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E3D41C02060F08400264596 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E3D41C12060F08400264596 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E3D41C52060F08400264596 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E3D41C62060F08400264596 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E3D41E12060F08400264596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E3D41E22060F08400264596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E3D41E42060F08400264596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 691FE982470B605F30BD6298 /* Pods-KuadrilApple.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KuadrilApple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxabin.KuadrilApple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E3D41E52060F08400264596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8036D1814A49D7E541230D3 /* Pods-KuadrilApple.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KuadrilApple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxabin.KuadrilApple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E3D41E72060F08400264596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E220AF623D06F49597D4AE38 /* Pods-KuadrilAppleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KuadrilAppleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxabin.KuadrilAppleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KuadrilApple.app/KuadrilApple";
+			};
+			name = Debug;
+		};
+		0E3D41E82060F08400264596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645ECF20F598AB226F194613 /* Pods-KuadrilAppleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KuadrilAppleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxabin.KuadrilAppleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KuadrilApple.app/KuadrilApple";
+			};
+			name = Release;
+		};
+		0E3D41EA2060F08400264596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFDF8B491800363AF3B06A30 /* Pods-KuadrilAppleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KuadrilAppleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxabin.KuadrilAppleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KuadrilApple;
+			};
+			name = Debug;
+		};
+		0E3D41EB2060F08400264596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07E0CCF56C5E93361C81D60 /* Pods-KuadrilAppleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KuadrilAppleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxabin.KuadrilAppleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KuadrilApple;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E3D41B22060F08400264596 /* Build configuration list for PBXProject "KuadrilApple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E3D41E12060F08400264596 /* Debug */,
+				0E3D41E22060F08400264596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E3D41E32060F08400264596 /* Build configuration list for PBXNativeTarget "KuadrilApple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E3D41E42060F08400264596 /* Debug */,
+				0E3D41E52060F08400264596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E3D41E62060F08400264596 /* Build configuration list for PBXNativeTarget "KuadrilAppleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E3D41E72060F08400264596 /* Debug */,
+				0E3D41E82060F08400264596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E3D41E92060F08400264596 /* Build configuration list for PBXNativeTarget "KuadrilAppleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E3D41EA2060F08400264596 /* Debug */,
+				0E3D41EB2060F08400264596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E3D41AF2060F08400264596 /* Project object */;
+}
