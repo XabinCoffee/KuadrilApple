@@ -27,7 +27,7 @@
 
 
 
-/*#pragma mark - Navigation
+#pragma mark - Navigation
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if ([segue.identifier isEqualToString:@"Logout"]){
@@ -37,7 +37,8 @@
             NSLog(@"Error signing out: %@", signOutError);
             return;
         }
+        
     }
-}*/
+}
 
 @end
