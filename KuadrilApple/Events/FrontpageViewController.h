@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FrontpageViewController : UIViewController
+@interface FrontpageViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end

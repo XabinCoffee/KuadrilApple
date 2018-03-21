@@ -13,7 +13,7 @@
 @property (weak, nonatomic) NSString* eventId;
 @property (weak, nonatomic) NSString* owner;
 @property (weak, nonatomic) NSString* name;
-@property (weak, nonatomic) NSString* description;
+@property (weak, nonatomic) NSString* desc;
 @property (weak, nonatomic) NSString* location;
 //@property (weak, nonatomic) NSString* icon;
 
