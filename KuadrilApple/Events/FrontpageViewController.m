@@ -8,6 +8,7 @@
 
 #import "FrontpageViewController.h"
 #import "CustomEventViews/EventTableViewCell.h"
+#import "Event.h"
 @import FirebaseAuth;
 
 @interface FrontpageViewController () {
@@ -23,9 +24,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.ref = [[FIRDatabase database] reference];
+    
+    Event* ev1 = [[Event alloc] init];
+    ev1.eventId=@"1";
+    ev1.owner=@"me";
+    ev1.name=@"Bazkaya";
+    ev1.desc=@"Bazkai earra";
+    ev1.location=@"Etxian";
+    
+    Event* ev2 = [[Event alloc] init];
+    ev2.eventId=@"2";
+    ev2.owner=@"me";
+    ev2.name=@"Tragotxuak";
+    ev2.desc=@"Ene badaaaaa";
+    ev2.location=@"Tri paloski";
+    
     events = [[NSMutableArray alloc] init];
     
-    [events addObject:@"jais jeis jabiri"];
+    [events addObject:ev1];
+    [events addObject:ev2];
+    
+    
+    /*[events addObject:@"je m'appelle brice"];
+    [events addObject:@"je suis de nice"];
+    [events addObject:@"je suis un snowboarder"];*/
     
     _tableView.dataSource = self;
     _tableView.delegate = self;
@@ -73,8 +96,13 @@
     EventTableViewCell *cell;
     cell = [tableView dequeueReusableCellWithIdentifier:@"EventCell" forIndexPath:indexPath];
     
-    //UIImage* img = [UIImage imageNamed:@"KAppIcon"];
-    //cell.eventIcon.image = img;
+    Event* event = [events objectAtIndex:indexPath.row];
+    
+    UIImage* img = [UIImage imageNamed:@"KAppIcon"];
+    cell.eventIcon.image = img;
+    cell.nameLabel.text = event.name;
+    cell.eventDescription.text = event.desc;
+    cell.numMembers.text=@"1";
     
     return cell;
     

@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@import FirebaseDatabase;
 
 @interface FrontpageViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) FIRDatabaseReference *ref;
+
 
 @end

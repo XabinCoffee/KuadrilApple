@@ -9,6 +9,7 @@ target 'KuadrilApple' do
 
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
+pod 'Firebase/Database'
 
   target 'KuadrilAppleTests' do
     inherit! :search_paths
