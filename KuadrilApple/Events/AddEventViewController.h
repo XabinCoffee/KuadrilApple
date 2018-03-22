@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Event.h"
 
 @interface AddEventViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *_saveButton;
+@property Event* event;
 
 - (IBAction)exit:(id)sender;
 

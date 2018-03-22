@@ -9,6 +9,7 @@
 #import "FrontpageViewController.h"
 #import "CustomEventViews/EventTableViewCell.h"
 #import "Event.h"
+#import "AddEventViewController.h"
 @import FirebaseAuth;
 
 @interface FrontpageViewController () {
@@ -75,6 +76,26 @@
         }
         
     }
+}
+
+
+-(IBAction) unwindToEventList:(UIStoryboardSegue *)unwindSegue{
+    /*NSIndexPath *selectedIndexPath = [self.tableView indexPathForSelectedRow];
+    if (selectedIndexPath != nil){
+        ViewController *source = unwindSegue.sourceViewController;
+        Meal *meal = source.meal;
+        [meals replaceObjectAtIndex:selectedIndexPath.row withObject:meal];
+        [self.tableView reloadData];
+    } else {*/
+        AddEventViewController *controller = unwindSegue.sourceViewController;
+    
+    if (controller.event != nil){
+        [events addObject:controller.event];
+        [_tableView reloadData];
+    }
+    
+    
+    //}
 }
 
 
