@@ -31,13 +31,13 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
     if (sender == __saveButton){
-        Event* ev2 = [[Event alloc] init];
-        ev2.eventId=@"2";
-        ev2.owner=@"me";
-        ev2.name=@"Jarbaskasofskie";
-        ev2.desc=@"Ene flflflfl badaaaaa";
-        ev2.location=@"Tri paloski";
-        _event = ev2;
+        Event* ev = [[Event alloc] init];
+        ev.eventId=@"2";
+        ev.owner=@"me";
+        ev.name=@"Ekintza!!";
+        ev.desc=@"Ene flflflfl badaaaaa";
+        ev.location=@"Tri paloski";
+        _event = ev;
     }
 
 }

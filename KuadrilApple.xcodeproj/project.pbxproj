@@ -161,8 +161,6 @@
 		0E3D41AE2060F08400264596 = {
 			isa = PBXGroup;
 			children = (
-				0E3D42062061468A00264596 /* Model */,
-				0E3D4200206143BC00264596 /* Utils */,
 				0E3D41B92060F08400264596 /* KuadrilApple */,
 				0E3D41D22060F08400264596 /* KuadrilAppleTests */,
 				0E3D41DD2060F08400264596 /* KuadrilAppleUITests */,
@@ -185,6 +183,8 @@
 		0E3D41B92060F08400264596 /* KuadrilApple */ = {
 			isa = PBXGroup;
 			children = (
+				0E3D42062061468A00264596 /* Model */,
+				0E3D4200206143BC00264596 /* Utils */,
 				0E144998206254E6004E72A4 /* Events */,
 				0E144997206252EC004E72A4 /* Auth */,
 				0E3D41BA2060F08400264596 /* AppDelegate.h */,
